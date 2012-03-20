@@ -1,0 +1,18 @@
+<table>
+<thead>
+    <tr>
+        %for heading in headings:
+        <th>${heading}</th>
+        %endfor
+    </tr>
+</thead>
+<tbody>
+%for terms in termslist:
+    <tr>
+        %for term in terms:
+        <td>${term}</td>
+        %endfor
+    </tr>
+%endfor
+</tbody>
+</table>
