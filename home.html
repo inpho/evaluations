@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>InPho</title>
+    
+    <!-- css -->
+    <link href="http://twitter.github.com/bootstrap/assets/css/bootstrap.css" rel="stylesheet">
+    <link href="http://twitter.github.com/bootstrap/assets/css/bootstrap-responsive.css" rel="stylesheet">
+
+    <script src="https://raw.github.com/twitter/bootstrap/master/js/bootstrap-collapse.js"></script>
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="row">
+
+	<!-- navigation -->
+	<ul class="nav nav-tabs">
+	  <li class="active">
+	    <a href=""><i class="icon-home"></i></a>
+	  </li>
+	</ul>
+
+	<div class="accordion span3" id="accordion">
+          <div class="accordion-group">
+            <div class="accordion-heading">
+	      <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#aestheticsAndPhilosophyOfArt">
+                <strong>Aesthetics and Philosophy of Art</strong>
+	      </a>
+            </div>
+            <div id="aestheticsAndPhilosophyOfArt" class="accordion-body collapse">
+              <div class="accordion-inner">
+              
+		<div class="accordion-group">
+		  <div class="accordion-heading">
+		    <a class="accordion-toggle" data-toggle="collapse" data-parent="#aestheticsAndPhilosophyOfArt" href="#aesthetics">
+		      <strong>Aesthetics</strong>
+		    </a>
+		  </div>
+		  <div id="aesthetics" class="accordion-body collapse">
+		    <div class="accordion-inner">
+		  
+		      <div class="accordion-group">
+			<div class="accordion-heading">
+			  <a class="accordion-toggle" data-parent="#aesthetics" href="">
+			    Aesthetic Experience
+			  </a>
+			</div>
+			
+			<div class="accordion-heading">
+			  <a class="accordion-toggle" data-parent="#aesthetics" href="">
+			    Aesthetic Judgement
+			  </a>
+			</div>
+
+			<div class="accordion-heading">
+			  <a class="accordion-toggle" data-parent="#aesthetics" href="">
+			    Aesthetic Properties
+			  </a>
+			</div>
+		      </div>
+
+		    </div>
+		  </div>
+		</div>
+
+		<div class="accordion-group">
+		  <div class="accordion-heading">
+		    <a class="accordion-toggle" data-toggle="collapse" data-parent="#aestheticsAndPhilosophyOfArt" href="#philosophyOfArt">
+		      <strong>Philosophy of Art</strong>
+		    </a>
+		  </div>
+		  <div id="philosophyOfArt" class="accordion-body collapse">
+		    <div class="accordion-inner">
+		  
+		      <div class="accordion-group">
+			<div class="accordion-heading">
+			  <a class="accordion-toggle" data-toggle="collapse" data-parent="#philosophyOfArt" href="#artisticForm">
+			    <strong>Artistic Form</strong>
+			  </a>
+			</div>
+			<div id="artisticForm" class="accordion-body collapse">
+			  <div class="accordion-inner">
+			    <div class="accordion-group">
+			      <div class="accordion-heading">
+				<a class="accordion-toggle" data-parent="#artisticForm" href="">
+				  Artistic Style
+				</a>
+			      </div>
+			    </div>
+			  </div>
+			</div>
+		      </div>
+
+		      <div class="accordion-group">
+			<div class="accordion-heading">
+			  <a class="accordion-toggle" data-parent="#philosophyOfArt" href="">
+			    Artistic Value
+			  </a>
+			</div>
+			
+			<div class="accordion-heading">
+			  <a class="accordion-toggle" data-parent="#philosophyOfArt" href="">
+			    Essentialism
+			  </a>
+			</div>
+
+			<div class="accordion-heading">
+			  <a class="accordion-toggle" data-parent="#philosophyOfArt" href="">
+			    Interpretation
+			  </a>
+			</div>
+
+			<div class="accordion-heading">
+			  <a class="accordion-toggle" data-parent="#philosophyOfArt" href="">
+			    Nature of Art
+			  </a>
+			</div>
+		      </div>
+
+		      <div class="accordion-group">
+			<div class="accordion-heading">
+			  <a class="accordion-toggle" data-toggle="collapse" data-parent="#philosophyOfArt" href="#ontologyOfArt">
+			    <strong>Ontology of Art</strong>
+			  </a>
+			</div>
+			<div id="ontologyOfArt" class="accordion-body collapse">
+			  <div class="accordion-inner">
+			    <div class="accordion-group">
+			      
+			      <div class="accordion-heading">
+				<a class="accordion-toggle" data-parent="#ontologyOfArt" href="">
+				  Abstract Object
+				</a>
+			      </div>
+			    
+			      <div class="accordion-heading">
+				<a class="accordion-toggle" data-parent="#ontologyOfArt" href="">
+				  Concrete Object
+				</a>
+			      </div>
+
+			    </div>
+			  </div>
+			</div>
+		      </div>
+			
+		      <div class="accordion-group">
+			<div class="accordion-heading">
+			  <a class="accordion-toggle" data-parent="#philosophyOfArt" href="">
+			    Reception
+			  </a>
+			</div>
+		      </div>
+
+		    </div>
+		  
+		  </div>
+		</div>
+
+	      </div>
+	    </div>
+	  </div>
+	</div>
+	
+      </div>
+    </div>
+
+    <!-- javascript placed at the end of the document so the pages load faster -->
+    <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+    <script src="http://twitter.github.com/bootstrap/assets/js/jquery.js"></script>
+    <script src="http://twitter.github.com/bootstrap/assets/js/google-code-prettify/prettify.js"></script>
+    <script src="http://twitter.github.com/bootstrap/assets/js/bootstrap-transition.js"></script>
+    <script src="http://twitter.github.com/bootstrap/assets/js/bootstrap-collapse.js"></script>
+    <script>
+      $(".collapse").collapse({
+      toggle: false
+      });
+    </script>
+  </body>
+</html>
